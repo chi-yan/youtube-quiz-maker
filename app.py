@@ -117,7 +117,7 @@ with left_column:
     else:
         url = url_choice
 
-    question_type = st.selectbox("Select question type:", ["MCQ", "Short Answer", "True or False", "Fill in the Blanks"])
+    question_type = st.selectbox("Select question type:", ["MCQ", "short-answer", "true-or-false", "fill-in-the-blanks"])
 
     number_of_questions = st.number_input("Enter the number of questions:", min_value=1, value=4)
 
