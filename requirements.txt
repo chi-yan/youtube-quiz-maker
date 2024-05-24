@@ -1,3 +1,6 @@
 youtube-transcript-api
 langchain
 langchain-groq
+langchain_community==0.0.29
+gradio
+pysqlite3-binary
